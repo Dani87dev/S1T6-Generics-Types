@@ -34,6 +34,34 @@ This exercise demonstrates how generic methods allow working with multiple data 
 
 ---
 
+## TASK 1 — LEVEL 2
+
+### 📌 Exercise Statement
+
+**Exercise 1 — Partial Generic Method**
+
+1. Modify the generic method from the previous level so that **one parameter is a fixed type** (`String`).
+2. The other two parameters must remain **generic**.
+3. Print all received parameters to verify correct behavior.
+
+This exercise focuses on understanding how generic and non-generic types can coexist within the same method.
+
+---
+
+## TASK 2 — LEVEL 2
+
+### 📌 Exercise Statement
+
+**Exercise 2 — Generic Varargs**
+
+1. Adapt the previous exercise so that the method accepts a **variable number of generic arguments** using varargs.
+2. The method should be named `printAll()`.
+3. Print all received parameters to verify the result.
+
+This exercise introduces the use of **varargs with generics** and highlights the potential *unchecked warnings* caused by type erasure in Java.
+
+---
+
 ## 🛠 Technologies
 
 - Java: 21 (LTS)
