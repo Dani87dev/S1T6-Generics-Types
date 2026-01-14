@@ -8,6 +8,7 @@ public class Main {
         String city = "Barcelona";
         String dogName = "Kira";
 
+
         NoGenericMethods object1 = new NoGenericMethods(name, city, dogName);
         NoGenericMethods object2 = new NoGenericMethods(city, dogName, name);
 
